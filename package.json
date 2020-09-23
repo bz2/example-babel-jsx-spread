@@ -1,0 +1,29 @@
+{
+  "name": "simple",
+  "licence": "UNLICENCED",
+  "private": true,
+  "version": "0.0.0",
+  "browserslist": [
+    "defaults",
+    "edge 18",
+    "not IE 11",
+    "not dead"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "preact": "^10.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.5",
+    "@babel/plugin-transform-react-jsx": "^7.10.3",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-nano": "^1.0.0"
+  },
+  "scripts": {
+    "build": "wp --config webpack.config.babel.js"
+  }
+}
