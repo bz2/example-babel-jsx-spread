@@ -13,9 +13,7 @@ export default {
     rules: [{
       exclude: /node_modules/,
       test: /\.js$/,
-      use: {
-        loader: 'babel-loader',
-      },
+      loader: 'babel-loader',
     }],
   },
   optimization: {

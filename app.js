@@ -1,11 +1,10 @@
 /** @jsx h */
 
-import 'preact/devtools';
 import {h, render} from 'preact';
 
-function App() {
-  return null;
+function App({style}) {
+  return <h1 {...{style}}>Title</h1>;
 }
 
-render(<App />, document.getElementById('root'));
+render(<App style="color: red" />, document.getElementById('root'));
 
