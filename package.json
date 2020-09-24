@@ -17,6 +17,6 @@
     "webpack-nano": "^1.0.0"
   },
   "scripts": {
-    "prepare": "wp --config webpack.config.babel.js"
+    "prepare": "wp --config webpack.config.babel.js --no-min"
   }
 }
