@@ -4,6 +4,7 @@ module.exports = (api) => {
     ['@babel/plugin-transform-react-jsx', {
       runtime: 'automatic',
       importSource: 'preact',
+      useBuiltIns: true
     }],
     //['@babel/plugin-transform-runtime', {useESModules: true}],
   ];
