@@ -9,7 +9,16 @@ module.exports = (api) => {
     //['@babel/plugin-transform-runtime', {useESModules: true}],
   ];
   const presets = [
-    '@babel/preset-env',
+    [
+      '@babel/preset-env',
+      {
+        loose: true,
+        bugfixes: true,
+        targets: {
+          esmodules: true
+        }
+      }
+    ]
   ];
   return {plugins, presets};
 };
