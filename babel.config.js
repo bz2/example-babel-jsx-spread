@@ -5,7 +5,6 @@ module.exports = (api) => {
       runtime: 'automatic',
       importSource: 'preact',
     }],
-    //['@babel/plugin-transform-runtime', {useESModules: true}],
   ];
   const presets = [
     '@babel/preset-env',
