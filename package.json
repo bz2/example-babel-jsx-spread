@@ -1,10 +1,9 @@
 {
-  "name": "simple",
-  "licence": "UNLICENCED",
+  "name": "example-babel-jsx-spread",
+  "licence": "CC0-1.0",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "dependencies": {
-    "@babel/runtime": "^7.12.13",
     "preact": "^10.5.12"
   },
   "devDependencies": {
@@ -13,7 +12,7 @@
     "@babel/preset-env": "^7.12.13",
     "@babel/register": "^7.12.13",
     "babel-loader": "^8.2.2",
-    "webpack": "5.9.0",
+    "webpack": "^5.20.1",
     "webpack-nano": "^1.1.1"
   },
   "scripts": {
